@@ -1,0 +1,43 @@
+
+nav {
+    background-color: midnightblue;
+    padding: 2px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 5px;
+}
+img {
+    width: 200px;
+    height: auto;
+    border: 1px solid mediumblue;
+    padding: 1px;
+    box-shadow: 0 0 40px gray;
+}
+p {
+    padding: 0;
+}
+main {
+    max-width: 840px;
+}
+aside {
+    margin: 1em;
+    border: 1px solid midnightblue;
+    padding: 1em;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 400px;
+    height: auto;
+    
+}
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
