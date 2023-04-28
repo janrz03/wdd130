@@ -8,13 +8,17 @@ nav a {
     color: white;
     display: block;
     padding: 5px;
+    }
+h1 {
+    text-shadow: 0 0 40px gray;
+    ter
 }
 img {
     width: 200px;
     height: auto;
     border: 1px solid mediumblue;
     padding: 1px;
-    box-shadow: 0 0 40px gray;
+    box-shadow: 0 0 20px gray;
 }
 p {
     padding: 0;
