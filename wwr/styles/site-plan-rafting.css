@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&display=swap');
+
 :root {
     --primary-color: #219EBC;
     --secondary-color: #8ECAE6;
@@ -11,7 +12,7 @@
     --nav-link-color: #FB8500;
     --nav-hover-link-color: #219EBC;
     --nav-hover-background-color: #023047;
-    }
+}
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -26,8 +27,11 @@ h1, h2, h3, h4, h5, h6 {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+    
 }
-p {padding: 25px;
+p {
+    padding: 25px;
+    text-align: center;
 }
 
 nav {
