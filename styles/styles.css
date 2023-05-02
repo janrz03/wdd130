@@ -46,13 +46,20 @@ aside {
     /* color: #333; */
     text-align: center;
     width: 20em;
+    position: relative;
 }
 
 aside img {
     width: 200px;
-    height: auto;
+    height: auto; 
     
 }
+aside h2 {
+    position: absolute;
+    top: 15px;
+    left: 90px;
+}
+
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;
@@ -71,8 +78,3 @@ footer {
     
 }
 
-aside h2 {
-    position: initial;
-    top: 47px;
-    left: 150px;
-}
