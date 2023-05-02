@@ -1,40 +1,51 @@
+/* W03: At the top of the document, create a CSS rule for the universal selector (wildcard) that contains three declarations  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 nav {
-    background-color: midnightblue;
-    padding: 2px;
+    background-color: steelblue;
+    padding: 10px;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 5px;
+    padding: 10px;
 }
 
 h1 {
-    text-shadow: 0 0 40px gray;
+    color: steelblue;
 }
 
-
-img {
-    width: 200px;
+/* W03: Use CSS to float your profile image to the right. The paragraph should come right after the picture. You may need to add more content if you have not introduced yourself enough for this to look decent  */
+main img {
+    width: 150px;
     height: auto;
-    border: 1px solid mediumblue;
-    padding: 1px;
-    box-shadow: 0 0 20px gray;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 p {
     padding: 0;
+    
 }
 main {
-    max-width: 840px;
+    max-width: 740px;
 }
 aside {
-    margin: 1em;
-    border: 1px solid midnightblue;
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
+    /* margin: 1em; */
+    /* border: 1px solid rgba(0, 0, 0, 0.2); 1 */
+    /* padding: 1em; */
+    /* background-color: #eee; */
+    /* color: #333; */
     text-align: center;
+    width: 20em;
 }
 
 aside img {
@@ -46,4 +57,22 @@ footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: aliceblue;
+    color:#000;
+    
+    
+    
+}
+
+aside h2 {
+    position: initial;
+    top: 47px;
+    left: 150px;
 }
