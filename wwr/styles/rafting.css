@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #219EBC;
+    --secondary-color: #8ECAE6;
+    --accent1-color: #FFB703;
+    --accent2-color: #023047;
+    --heading-font: 'Poppins', serif;
+    --paragraph-font: 'Libre Baskerville', serif;
+    --nav-backgroud-color: #FFFFFF;
+    --nav-link-color: #FB8500;
+    --nav-hover-link-color: #219EBC;
+    --nav-hover-background-color: #023047;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 940px;
+    padding: 20px;
+}
+
+header img{
+    width: 180px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    padding: 10px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    background-color: #023047;
+    opacity: 0.7;
+    width: 800px;
+    top: 250px;
+    left: 65px;
+    text-align: center;
+}
+
+article {
+    position: absolute;
+    background-color: #219EBC;
+    opacity: 0.9;
+    width: 800px;
+    top: 350px;
+    left: 65px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+article img {
+    float: right;
+    width: 200px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
