@@ -43,8 +43,15 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
+.hero article img {
+    float: right;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
-h1{
+.hero h1{
     position: absolute;
     background-color: hsl(200, 95%, 14%, 0.5);
     width: 900px;
@@ -54,18 +61,8 @@ h1{
     color: #FFFFFF;
 }
 
-article img {
-    float: right;
-    width: 200px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    
-    
-    
-}
 
-article {
+.hero article {
     position: absolute;
     background-color: hsl(192, 70%, 43%, 0.5);
     width: 800px;
@@ -81,5 +78,6 @@ nav img {
 }
 
 footer p {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
