@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-:root {
+:root pseudo-class{
     --primary-color: #219EBC;
     --secondary-color: #8ECAE6;
     --accent1-color: #FFB703;
@@ -73,11 +73,10 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
-nav img {
-    padding: 10px;
-}
-
 footer p {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.sociallinks a{
+    padding: 10px;
 }
