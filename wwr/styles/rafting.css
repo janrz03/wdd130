@@ -43,7 +43,7 @@ body {
 
 }
 
-div h2 {
+.adventures h2 {
     display: flex;
     flex-basis: 100%;
     padding: 30px;
