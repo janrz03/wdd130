@@ -176,3 +176,82 @@ footer p {
 .sociallinks a{
     padding: 10px;
 }
+
+/* contact us */
+
+/* main {
+    display: grid;
+    grid-column: 1/2;
+} */
+
+.contact {
+    display: flex;
+    max-width: 940px;
+    flex-wrap: wrap;
+    
+}
+
+.Info {
+    display: grid;
+    max-width: 440px;
+    /* flex-wrap: nowrap; */
+    margin-block: 2rem 0;  
+}
+
+.map {
+    display: grid;
+    place-items: center;
+}
+
+
+
+.Comments {
+    display: flex;
+    max-width: 440px;
+    /* flex-wrap: wrap; */
+    padding: 1rem;
+    margin-left: 30px;
+}
+
+form {
+    width: 750px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #eee;
+    display: grid;
+    border-radius: 5%;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    border: auto;
+    border-radius: 5%;
+    padding: 1rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+} */
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: auto;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+button:hover {
+    background-color: rgb(1, 1, 22);
+}
