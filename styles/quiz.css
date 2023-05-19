@@ -24,86 +24,72 @@ h1 {
     margin: 1rem;
     font-size: 1.5em;
     color: navy;
+    text-align: left;
+}
+b{
+    font-size: 1em;
+    color: navy;
     text-align: center;
+
 }
 
 form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    /* border-radius: 0.5rem; */
     background-color: #eee;
     display: grid;
 }
 fieldset{
     display: grid;
     grid-gap: .5rem;
-    margin: 1rem;
-    border: 1px solid rgba (0, 0, 0, 0.2);
+    /* margin: 1rem; */
+    border: none;
     padding: 1rem;
-}
-legend {
-    padding: 0.5rem;
-    color: navy;
-    font-size: 1.3em;
+    margin-bottom: 20px;
 }
 label, input, button, select, textarea {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 label {
-    text-align: center;
-    padding-right: 1rem;
+    text-align: left;
+    /* padding-right: 1rem; */
+    /* padding: 20px; */
+    margin-block: 2rem 0;
+
 }
 
 input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
 }
-
-input[type="checkbox"] {
-    width: 22px;
-    height: 22px;
-    vertical-align: bottom;
+p{
+    display: grid;
+    background-color: black;
+    width: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 1em;
+    color: white;
+    text-align: left;
+    height: 70px;
+    align-items: center;
+    padding-left: 15px;
+    
 }
-
 button {
-    margin: auto;
+    margin: center;
     background-color: navy;
     color: #fff;
     border: none;
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
-       
+    margin-bottom: 30px;
 }
-
 button:hover {
-    background-color: darkgreen;
-}
-
-footer {
-    margin: 1rem auto 0;
-    width: 650px;
-    text-align: center;
-    font-size: 0.8em;
-    color: #777;
-    border-top: 1px solid #ccc;
-}
-
-.form-item {
-    display: grid;
-    align-items: center;
-}
-
-.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
-    align-items: center;
-}
-
-.column2 {
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
+    background-color: rgb(1, 1, 22);
 }

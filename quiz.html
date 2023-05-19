@@ -1,3 +1,5 @@
+<!-- Jamner Ruiz -->
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -8,25 +10,36 @@
 </head>
 <body>
     <header>
-        <h1>WDD 130 | Jamner Ruiz | HTML Form - User Poll</h1>
+        <h1>Basic HTML and CSS Quiz</h1>
+        <link rel="stylesheet" href="styles/quiz.css">
     </header>
     <main>
         <form>
             <fieldset>
-                <legend>Contact Information</legend>
-                <!-- form elements will go here -->
-                <div class="form-item column2">
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname">
-                </div>
-                <div class="form-item column2">
-                <label for="email">Email:</label>
-                <input type="email" id="usermail" name="usermail">
-                </div>
+
+                <label for="q1"><b>1.</b> What does the acronym CSS stand for</label>
+                <input type="text" id="q1" name="q1">
+
+                <label for="q2"><b>2.</b> How are id and class attributes selected in cSS?</label>
+                <textarea id="q2" name="q2" rows="4"></textarea>
+                
+                <label for="q3"><b>3.</b> Which of the following is a valid CSS comment?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose One...</option>
+                    <option value="op1">option 1</option>
+                    <option value="op2">option 2</option>
+                    <option value="op3">option 3<option>
+                </select>
+
+                <label for="q4"><b>4.</b> What is the bottom margin given this declaration?</label>
+                <p>margin: 10px 5px 15px;</p>
+                <input type="number" id="q4" name="q4">
+                
+    
             </fieldset>
-            <fieldset>
+            <!-- <fieldset>
                 <legend>Questions</legend>
-                <!-- form elements will go here -->
+                
                 <div class="form-item column1">
                 <label for="browser">What is your favorite internet browser?</label>
                 <select id="browser" name="browser">
@@ -42,17 +55,17 @@
                 <label for="pet">Do you have a household pet?</label>
                 <input type="checkbox" id="pet" name="pet">
                 </div>
-                <!-- <div class="form-item column1"> -->
+                
                 <label for="feedback">List the places you have lived:</label>
                 <textarea id="feedback" name="feedback" rows="4" placeholder="Ciudad of Guatemala, Santa Ana El Salvador, Ciudad de Panama"></textarea>
-                <!-- </div> -->
-            </fieldset>
-            <button type="submit">Submit Poll</button>
+                </div>
+            </fieldset> -->
+            <button type="submit">Submit Quiz</button>
         </form>
 
     </main>
-    <footer>
+    <!-- <footer>
         <p>©️ 2023 | HTML Form - User Poll Activity | Jamner Ruiz</p>
-    </footer>
+    </footer> -->
 </body>
-</html>
+</html> 
