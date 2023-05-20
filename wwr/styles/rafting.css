@@ -212,6 +212,14 @@ footer p {
     padding: 1rem;
     margin-left: 30px;
 }
+.option{
+    display: grid;
+}
+
+.option div {
+    padding: 10px;
+}
+
 
 form {
     width: 750px;
@@ -255,3 +263,22 @@ button {
 button:hover {
     background-color: rgb(1, 1, 22);
 }
+
+.employee {
+    display: flex;
+    max-width: 790px;
+    flex-wrap: wrap;
+    justify-content:space-between;
+
+}
+
+.employee h2{
+    display: flex;
+    flex-basis: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+
+.employee figure {
+    width: 180px;
+} 
