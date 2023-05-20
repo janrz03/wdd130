@@ -233,17 +233,17 @@ form {
 fieldset{
     display: grid;
     grid-gap: .5rem;
-    border: auto;
     border-radius: 5%;
     padding: 1rem;
     margin-bottom: 20px;
     text-align: left;
 }
 
-/* input, select, textarea {
+input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
-} */
+}
+
 input[type="checkbox"] {
     width: 20px;
     height: 20px;
