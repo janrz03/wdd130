@@ -170,9 +170,20 @@ footer nav{
 }
 
 footer p {
+    display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
+    flex-basis: 100%;
+    
 }
+
+.final{
+    display: flex;
+    flex-basis: 100%;
+    max-width: 790px; 
+}
+
+
 .sociallinks a{
     padding: 10px;
 }
