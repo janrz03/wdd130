@@ -161,19 +161,22 @@ h1, h2, h3, h4, h5, h6 {
 footer {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 10fr 2fr;
 }
 
 footer nav{
     display: flex;
     justify-content: right;
+    
 }
 
 footer p {
     display: flex;
+    flex-basis: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
-    flex-basis: 100%;
+    justify-content: center;
+   
     
 }
 
@@ -183,10 +186,6 @@ footer p {
     max-width: 790px; 
 }
 
-
-.sociallinks a{
-    padding: 10px;
-}
 
 /* contact us */
 
@@ -293,3 +292,102 @@ button:hover {
 .employee figure {
     width: 180px;
 } 
+
+/* for Trips page */
+
+.button-box {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    padding: 50px;
+}
+
+.book {
+
+    background-color:#FB8500;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.book:hover{
+    background-color: #FFB703;
+}
+
+
+
+.trips {
+
+    display: flex;
+    padding: 20px;
+    justify-content:space-around;
+    width: 900px;
+    flex-wrap: wrap;
+    
+}
+
+.trips div {
+    display: flex;
+    /* padding: 20px; */
+    width: 350px;
+
+}
+
+
+.trips div figure img:hover {
+    opacity: 80%;
+    font-weight:  700;
+    
+}
+
+
+.trips div figure figcaption{
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.7s;
+    color:#FFFFFF;
+    
+    
+}
+
+.trips div figure figcaption p{
+    padding: 10px;
+    
+    
+}
+
+.trips div figure:hover figcaption  {
+    /* opacity: 70%; */
+    color:#023047;
+    font-weight:  500;
+    background-color: #219EBC;
+    border-radius: 3%;
+    /* opacity: 50; */
+    transform: translateY(-100px);
+    /* -webkit-transform: translateY(-50px); */
+}
+
+.tcenter {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+td {
+    padding: 2%;
+}
+
+
+table, td {
+    border: 1px solid #333;
+}
+
+thead, tfoot {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
