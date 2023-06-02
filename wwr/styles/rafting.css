@@ -508,10 +508,7 @@ thead, tfoot {
     opacity: 1;
     transition-delay: 0s;
     transition-duration: 0.7s;
-    color:#FFFFFF;
-    /* margin-top: 5%;
-    margin-bottom: 5%; */
-    
+    color:#FFFFFF;    
 }
 
 .action figure figcaption nav{
@@ -522,12 +519,10 @@ thead, tfoot {
 }
 
 .action figure:hover figcaption  {
-    /* opacity: 70%; */
     color:#023047;
     font-weight:  500;
     background-color:#FFB703;
     border-radius: 3%;
-    /* opacity: 50; */
     transform: translateY(-100px);
     /* -webkit-transform: translateY(-50px); */
 }
