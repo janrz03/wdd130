@@ -427,6 +427,7 @@ thead, tfoot {
     left: 50px;
     text-align: left;
     padding: 20px;
+    color: #fff;
 }
 .home_index article img {
     float: right;
@@ -447,26 +448,19 @@ thead, tfoot {
     
 }
 
+.mainpage div {
+    padding: 30px;
+}
+
 .Newsletter form {
     display: flex;
     width: auto;
-    /* margin: 0 auto; */
     padding: 1rem;
     background-color: #eee;
     display: grid;
     border-radius: 5%;
     
 }
-
-/* .action {
-
-    display: flex;
-    padding: 20px;
-    justify-content:space-around;
-    width: 900px;
-    flex-wrap: wrap;
-    
-} */
 
 .action div {
     display: flex;
@@ -527,3 +521,14 @@ thead, tfoot {
     /* -webkit-transform: translateY(-50px); */
 }
 
+.experiences {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    justify-content: space-between;
+    }
+
+.experiences div {
+    padding: 5px;
+}
